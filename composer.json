@@ -1,0 +1,33 @@
+{
+  "name": "gokhankurtulus/chronos",
+  "description": "A simple PHP library for working with date and time.",
+  "keywords": [
+    "datetime",
+    "pretty date",
+    "pretty diff"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Chronos\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "gokhankurtulus",
+      "email": "gokhan@gokhankurtulus.com",
+      "homepage": "https://github.com/gokhankurtulus"
+    }
+  ],
+  "require": {
+    "php": "^8.1 || ^8.2",
+    "gokhankurtulus/multilanguage": "^1.0",
+    "ext-ctype": "*"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
